@@ -1,0 +1,12 @@
+
+
+# print("Hello! What is your name?")
+# name = input(">")
+name = input("Hello! What is your name? ")
+print("Hello, " + name + ". How old are you?")
+# int() will convert a str to an int
+# age = int(input("> "))
+age = input("> ")
+
+# str()
+print("You will be " + str(int(age) + 1) + " next year!")
